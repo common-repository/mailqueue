@@ -1,0 +1,32 @@
+.mailqueue-settings .d-none {
+    display: none;
+}
+
+.mailqueue-settings .tablinks {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.mailqueue-settings .response {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.mailqueue-settings .tablinks button {
+    background-color: inherit;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    border: 1px solid #191E23;
+    margin: 5px;
+    box-shadow: 1px 1px 1px #191e23;
+}
+
+.mailqueue-settings .tablinks button:hover {
+    background-color: #bbb;
+}
+
+.mailqueue-settings .tab textarea {
+    width: 400px;
+}
